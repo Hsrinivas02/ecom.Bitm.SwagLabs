@@ -1,0 +1,254 @@
+<html>
+<head>
+<title>TestNG:  Functional Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Functional Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Oct 10 12:40:32 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>133 seconds (133904 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>functional </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='login.LoginTest.validLoginTest()'><b>validLoginTest</b><br>Test class: login.LoginTest<br/>
+<a href="#Output-1089691218" onClick='toggleBox("Output-1089691218", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1089691218" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1089691218">
+TC-LOGIN-02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>login.LoginTest@6440112d</td></tr>
+<tr>
+<td title='products.ProductTest.verifyPriceHighToLowSorting()'><b>verifyPriceHighToLowSorting</b><br>Test class: products.ProductTest<br/>
+<a href="#Output-1520840423" onClick='toggleBox("Output-1520840423", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1520840423" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1520840423">
+Filter Applied: hilo<br/>
+TC-PROD-08 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>products.ProductTest@4bdeaabb</td></tr>
+<tr>
+<td title='login.LoginTest.invalidUsernameTest()'><b>invalidUsernameTest</b><br>Test class: login.LoginTest<br/>
+<a href="#Output-185674515" onClick='toggleBox("Output-185674515", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-185674515" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-185674515">
+TC-LOGIN-04 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>login.LoginTest@6440112d</td></tr>
+<tr>
+<td title='login.LoginTest.invalidPasswordTest()'><b>invalidPasswordTest</b><br>Test class: login.LoginTest<br/>
+<a href="#Output-2068450031" onClick='toggleBox("Output-2068450031", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2068450031" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2068450031">
+TC-LOGIN-05 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>login.LoginTest@6440112d</td></tr>
+<tr>
+<td title='products.ProductTest.addProductToCart()'><b>addProductToCart</b><br>Test class: products.ProductTest<br/>
+<a href="#Output-1578365270" onClick='toggleBox("Output-1578365270", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1578365270" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1578365270">
+Sauce Labs Backpack added to cart<br/>
+TC-PROD-03 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>products.ProductTest@4bdeaabb</td></tr>
+<tr>
+<td title='login.LoginTest.verifyLoginControls()'><b>verifyLoginControls</b><br>Test class: login.LoginTest<br/>
+<a href="#Output-535687332" onClick='toggleBox("Output-535687332", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-535687332" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-535687332">
+TC-LOGIN-01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>login.LoginTest@6440112d</td></tr>
+<tr>
+<td title='products.ProductTest.verifyProductDisplayed()'><b>verifyProductDisplayed</b><br>Test class: products.ProductTest<br/>
+<a href="#Output-475871799" onClick='toggleBox("Output-475871799", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-475871799" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-475871799">
+TC-PROD-02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>products.ProductTest@4bdeaabb</td></tr>
+<tr>
+<td title='products.ProductTest.verifyNameZToASorting()'><b>verifyNameZToASorting</b><br>Test class: products.ProductTest<br/>
+<a href="#Output-78227576" onClick='toggleBox("Output-78227576", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-78227576" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-78227576">
+Filter Applied: za<br/>
+TC-PROD-06 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>products.ProductTest@4bdeaabb</td></tr>
+<tr>
+<td title='products.ProductTest.verifyNameAToZSorting()'><b>verifyNameAToZSorting</b><br>Test class: products.ProductTest<br/>
+<a href="#Output-1482087396" onClick='toggleBox("Output-1482087396", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1482087396" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1482087396">
+Filter Applied: az<br/>
+TC-PROD-05 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>products.ProductTest@4bdeaabb</td></tr>
+<tr>
+<td title='login.LoginTest.blankPasswordTest()'><b>blankPasswordTest</b><br>Test class: login.LoginTest<br/>
+<a href="#Output-969115094" onClick='toggleBox("Output-969115094", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-969115094" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-969115094">
+TC-LOGIN-07 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>login.LoginTest@6440112d</td></tr>
+<tr>
+<td title='products.ProductTest.verifyProductRemovalState()'><b>verifyProductRemovalState</b><br>Test class: products.ProductTest<br/>
+<a href="#Output-1395502325" onClick='toggleBox("Output-1395502325", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1395502325" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1395502325">
+Sauce Labs Backpack removal verified<br/>
+TC-PROD-04 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>products.ProductTest@4bdeaabb</td></tr>
+<tr>
+<td title='login.LoginTest.blankUsernameTest()'><b>blankUsernameTest</b><br>Test class: login.LoginTest<br/>
+<a href="#Output-1434932926" onClick='toggleBox("Output-1434932926", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1434932926" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1434932926">
+TC-LOGIN-06 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>login.LoginTest@6440112d</td></tr>
+<tr>
+<td title='products.ProductTest.verifyProductPageControls()'><b>verifyProductPageControls</b><br>Test class: products.ProductTest<br/>
+<a href="#Output-1300359226" onClick='toggleBox("Output-1300359226", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1300359226" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1300359226">
+TC-PROD-01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>products.ProductTest@4bdeaabb</td></tr>
+<tr>
+<td title='products.ProductTest.verifyPriceLowToHighSorting()'><b>verifyPriceLowToHighSorting</b><br>Test class: products.ProductTest<br/>
+<a href="#Output-652268444" onClick='toggleBox("Output-652268444", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-652268444" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-652268444">
+Filter Applied: lohi<br/>
+TC-PROD-07 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>products.ProductTest@4bdeaabb</td></tr>
+</table><p>
+</body>
+</html>
