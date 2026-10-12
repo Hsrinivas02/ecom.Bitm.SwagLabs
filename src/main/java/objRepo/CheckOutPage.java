@@ -109,7 +109,7 @@ public class CheckOutPage {
     public String getCheckoutProductName() {
         return checkoutProductNames.get(0).getText();
     }
-
+    //check product names
     public boolean isProductDisplayed(String productName) {
         for (WebElement product : checkoutProductNames) {
             if (product.getText().equals(productName)) {

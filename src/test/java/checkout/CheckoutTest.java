@@ -317,11 +317,6 @@ public class CheckoutTest extends BaseClass {
     @Test(enabled = false)
     public void checkoutBoundaryTest() {
 
-        /*
-         * Actual minimum and maximum supported
-         * field lengths are not defined.
-         *
-         * Therefore this test remains disabled.
-         */
+       
     }
 }

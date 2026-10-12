@@ -16,9 +16,6 @@ public class LoginTest extends BaseClass {
     @Test(groups = {"functional"})
     public void verifyLoginControls() {
         Assert.assertTrue(loginPage.userName.isDisplayed(), "Username field is not displayed");
-        // Here if condition is false then it will stop the test and prints that error msg in console
-        // if true then it will continue the execution
-
         Assert.assertTrue(loginPage.passWord.isDisplayed(), "Password field is not displayed");
         Assert.assertTrue(loginPage.loginBtn.isDisplayed(), "Login button is not displayed");
 
